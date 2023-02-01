@@ -3,11 +3,11 @@ from selenium.webdriver.common.by import By
 import time
 import lots_db
 
-url1 = "https://www.avito.ru/samara/avtomobili?f=ASgBAQECAkTyCrCKAeC2DaSKNAJA5rYNZIjirhDAtyjCtyjKtyjMtyjQtyjwtg007rco8rco8LcoBEX4Ahh7ImZyb20iOjIwMzAzLCJ0byI6bnVsbH2MFBZ7ImZyb20iOjExMCwidG8iOm51bGx9vhUYeyJmcm9tIjpudWxsLCJ0byI6ODAwMDB9xpoMF3siZnJvbSI6MCwidG8iOjE2MDAwMDB9&localPriority=1"
+url1 = "https://www.avito.ru/"
 
 
 def get_lots(url):
-    driver = webdriver.Chrome(executable_path='C:\\Users\\ZZnote\\Downloads\\chromedriver_win32\\chromedriver')
+    driver = webdriver.Chrome(executable_path='path')
     i = 0
     el = '1'
     lots = []
